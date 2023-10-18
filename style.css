@@ -1,0 +1,38 @@
+input[type="text"] {
+    font-size: 20px;
+    width: 100vw;
+}
+
+input[type="button"] {
+    font-size: 20px;
+    flex-basis: 33.3333%;
+}
+#numeros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+#plusegal{
+    display: flex;
+    flex-direction: column;
+    width: 19vw;
+}
+#zeropoint{
+    display: flex;
+    flex-direction: row;
+}
+#toutensemble{
+    display: flex;
+    flex-wrap: wrap;
+}
+#calculette {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#zero{
+    flex-grow: 2;
+}
+
